@@ -19,7 +19,7 @@ std::vector<int> random_vector(std::size_t sz) {
 }
 
 TEST(Zakharov_a_radix_sort_seq, test_pipeline_run) {
-  const int count = 1200000;
+  const int count = 2000000;
 
   // Create data
   std::vector<int> in(random_vector(count));
@@ -59,7 +59,7 @@ TEST(Zakharov_a_radix_sort_seq, test_pipeline_run) {
 }
 
 TEST(Zakharov_a_radix_sort_seq, test_task_run) {
-  const int count = 1200000;
+  const int count = 2000000;
 
   // Create data
   std::vector<int> in(random_vector(count));
