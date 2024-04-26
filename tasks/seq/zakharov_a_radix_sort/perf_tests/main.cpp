@@ -7,7 +7,7 @@
 #include "core/perf/include/perf.hpp"
 #include "seq/zakharov_a_radix_sort/include/ops_seq.hpp"
 
-std::vector<int> random_vector(std::size_t sz) {
+std::vector<int> zakharov_random_vector(std::size_t sz) {
   std::random_device dev;
   std::mt19937 gen(2859);
   std::uniform_int_distribution<int> distrib(-100000, 100000);
@@ -22,7 +22,7 @@ TEST(Zakharov_a_radix_sort_seq, test_pipeline_run) {
   const int count = 40000000;
 
   // Create data
-  std::vector<int> in(random_vector(count));
+  std::vector<int> in(zakharov_random_vector(count));
   std::vector<int> out(count, 0);
 
   std::vector<int> res(in);
@@ -62,7 +62,7 @@ TEST(Zakharov_a_radix_sort_seq, test_task_run) {
   const int count = 40000000;
 
   // Create data
-  std::vector<int> in(random_vector(count));
+  std::vector<int> in(zakharov_random_vector(count));
   std::vector<int> out(count, 0);
 
   std::vector<int> res(in);
