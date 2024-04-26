@@ -9,7 +9,6 @@
 #include "omp/zakharov_a_radix_sort/include/radix_sort_omp.hpp"
 
 std::vector<int> zakharov_random_vector(std::size_t sz) {
-  std::random_device dev;
   std::mt19937 gen(2859);
   std::uniform_int_distribution<int> distrib(-100000, 100000);
   std::vector<int> result(sz);

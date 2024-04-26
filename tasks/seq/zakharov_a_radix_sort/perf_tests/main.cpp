@@ -8,7 +8,6 @@
 #include "seq/zakharov_a_radix_sort/include/ops_seq.hpp"
 
 std::vector<int> zakharov_random_vector(std::size_t sz) {
-  std::random_device dev;
   std::mt19937 gen(2859);
   std::uniform_int_distribution<int> distrib(-100000, 100000);
   std::vector<int> result(sz);
