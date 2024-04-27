@@ -1,9 +1,7 @@
 // Copyright 2024 Zakharov Artem
 #include <gtest/gtest.h>
 #include <oneapi/tbb.h>
-
 #include <random>
-#include <vector>
 
 #include "core/perf/include/perf.hpp"
 #include "tbb/zakharov_a_radix_sort/include/radix_sort_tbb.hpp"
