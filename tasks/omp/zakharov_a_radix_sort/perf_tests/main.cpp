@@ -1,9 +1,7 @@
 // Copyright 2024 Zakharov Artem
 #include <gtest/gtest.h>
 #include <omp.h>
-
 #include <random>
-#include <vector>
 
 #include "core/perf/include/perf.hpp"
 #include "omp/zakharov_a_radix_sort/include/radix_sort_omp.hpp"

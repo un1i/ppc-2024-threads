@@ -1,10 +1,6 @@
 // Copyright 2024 Zakharov Artem
 #pragma once
 
-#include <memory>
-#include <utility>
-#include <vector>
-
 #include "core/task/include/task.hpp"
 
 class ZakharovRadixSortOMP : public ppc::core::Task {

@@ -1,8 +1,6 @@
 // Copyright 2024 Zakharov Artem
 #include <gtest/gtest.h>
 
-#include <vector>
-
 #include "omp/zakharov_a_radix_sort/include/radix_sort_omp.hpp"
 
 TEST(Zakharov_a_radix_sort_omp, Positive) {

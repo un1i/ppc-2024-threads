@@ -2,8 +2,7 @@
 #include "omp/zakharov_a_radix_sort/include/radix_sort_omp.hpp"
 
 #include <cmath>
-
-#include "omp.h"
+#include <omp.h>
 
 bool ZakharovRadixSortOMP::validation() {
   internal_order_test();
