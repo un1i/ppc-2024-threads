@@ -1,6 +1,8 @@
 // Copyright 2024 Zakharov Artem
 #include "tbb/zakharov_a_radix_sort/include/radix_sort_tbb.hpp"
+
 #include <oneapi/tbb.h>
+
 #include <cmath>
 
 bool ZakharovRadixSortTBB::validation() {

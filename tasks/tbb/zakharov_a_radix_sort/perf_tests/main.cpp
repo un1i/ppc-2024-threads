@@ -1,6 +1,7 @@
 // Copyright 2024 Zakharov Artem
 #include <gtest/gtest.h>
 #include <oneapi/tbb.h>
+
 #include <random>
 
 #include "core/perf/include/perf.hpp"
