@@ -1,8 +1,9 @@
 // Copyright 2024 Zakharov Artem
 #include "omp/zakharov_a_radix_sort/include/radix_sort_omp.hpp"
 
-#include <cmath>
 #include <omp.h>
+
+#include <cmath>
 
 bool ZakharovRadixSortOMP::validation() {
   internal_order_test();
